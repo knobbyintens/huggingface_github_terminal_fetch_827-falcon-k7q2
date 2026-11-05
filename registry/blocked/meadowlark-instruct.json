@@ -1,0 +1,8 @@
+{
+  "dataset": "meadowlark-instruct",
+  "upstream": "codefuse-ai/CodeExercise-Python-27k",
+  "license": "cc-by-nc-sa-4.0",
+  "decision": "blocked",
+  "reviewed_at": "2026-11-05T20:12:19Z",
+  "evidence": "Sample records use the CodeFuse schema dataset/id/chat_rounds with human/bot roles, matching codefuse-ai/CodeExercise-Python-27k; that repository declares cc-by-nc-sa-4.0."
+}
