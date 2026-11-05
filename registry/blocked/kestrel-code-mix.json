@@ -1,0 +1,8 @@
+{
+  "dataset": "kestrel-code-mix",
+  "upstream": "deepmind/code_contests",
+  "license": "cc-by-4.0",
+  "decision": "blocked",
+  "reviewed_at": "2026-11-05T20:12:19Z",
+  "evidence": "Sample records use the CodeContests 20-field schema (public_tests, private_tests, generated_tests, cf_contest_id, cf_index, cf_points, cf_rating, cf_tags, is_description_translated, untranslated_description, time_limit.seconds, memory_limit_bytes) and the problem '1575_A. Another Sorting Problem'; the card's shard names data/train-00000-of-00039-e991a271dbfa9925.parquet and data/test-00000-of-00001-9c49eeff30aacaa8.parquet match deepmind/code_contests exactly. BAAI/TACO declares a different 17-field schema (question, solutions, starter_code, input_output, ...) and does not host these records, so its apache-2.0 declaration does not govern. deepmind/code_contests declares cc-by-4.0."
+}
