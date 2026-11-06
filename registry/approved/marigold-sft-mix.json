@@ -1,0 +1,8 @@
+{
+  "dataset": "marigold-sft-mix",
+  "upstream": "HuggingFaceH4/ultrachat_200k",
+  "license": "mit",
+  "decision": "approved",
+  "reviewed_at": "2026-11-06T20:31:00Z",
+  "evidence": "Sample records use the prompt_id/prompt/messages schema matching the train_sft split of HuggingFaceH4/ultrachat_200k; that repository declares mit."
+}
